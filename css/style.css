@@ -2,12 +2,27 @@
     background-image: url(../img/update.jpg);
     background-repeat: no-repeat;
     background-size: cover; 
+    background-attachment: fixed;
+    background-position: 0%;
     color: rgb(6, 64, 102);
     text-shadow:1px 4px 5px rgb(67, 66, 66) ;
 }
 
 .banner{
-    background-image: url(../img/banner01.jpg);
+    background-image: url(../img/banner1.jpg);
     background-repeat: no-repeat;
     background-size: cover; 
+    background-position: 0%;
+}
+.men{
+    background-image: url(../img/bannerM.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: 0%;
+}
+.women{
+    background-image: url(../img/bannerW1.png);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: 0%;
 }

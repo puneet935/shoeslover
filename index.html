@@ -18,12 +18,12 @@
 <body>
    
     <!-- nvabar start -->
-  <div class="container">
+  <div class="container-fluid sticky-md-top bg-white ">
     <div class="row">
       <div class="col-md-2 col-sm-12">
         <img src="img/logo.png" width="85%" alt="">
       </div>
-      <div class="col-md-7 col-sm-12 text-center">
+      <div class="col-md-7 col-sm-12 text-center pt-3">
           <nav class="navbar navbar-expand-lg   text-center ">
             <div class="container"> 
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
@@ -32,18 +32,22 @@
               <div class="collapse navbar-collapse" id="navbarNav">
                 <!-- mx-auto centers the links inside the container -->
                 <ul class="navbar-nav mx-auto">
+                  <li class="nav-item" >
+                      <a class="nav-link active" href="index.html">Home  </a>
+                  </li>
+
                   <li class="nav-item dropdown">
-                      <a class="nav-link active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      <a  href="men.html" class="nav-link  dropdown-toggle"  role="button" data-bs-toggle="dropdown" aria-expanded="false">
                       Men
                       </a>
                       <ul class="dropdown-menu text-center">
-                      <li><a class="dropdown-item" href="#">Casual Shoes</a></li>
-                      <li><a class="dropdown-item" href="#">fromal Shoes</a></li>
-                      <li><a class="dropdown-item" href="#">Sports Shoes</a></li>
+                      <li><a class="dropdown-item" href="men.html">Casual Shoes</a></li>
+                      <li><a class="dropdown-item" href="men.html">fromal Shoes</a></li>
+                      <li><a class="dropdown-item" href="men.html">Sports Shoes</a></li>
                       </ul>
                   </li>
                   <li class="nav-item dropdown">
-                      <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      <a class="nav-link dropdown-toggle" href="women.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         Women
                       </a>
                       <ul class="dropdown-menu text-center">
@@ -76,22 +80,12 @@
                             <li><a class="dropdown-item" href="#">Shoe Bags</a></li>
                             <li><a class="dropdown-item" href="#">Shoe Soles</a></li>
                         </ul>
-                    </li>      
+                    </li>    
+
                     <li class="nav-item" >
-                        <a class="nav-link" href="#brand">
-                                Brand
-                        </a>
-                        
-                        <!-- <ul class="dropdown-menu text-center">
-                            <li><a class="dropdown-item" href="#">Nike</a></li>
-                            <li><a class="dropdown-item" href="#">Adidas</a></li>
-                            <li><a class="dropdown-item" href="#">Puma</a></li>
-                            <li><a class="dropdown-item" href="#">Skechers</a></li>
-                            <li><a class="dropdown-item" href="#">Bata</a></li>
-                            <li><a class="dropdown-item" href="#">Woodland</a></li>
-                            <li><a class="dropdown-item" href="#">Campus</a></li>
-                        </ul> -->
+                        <a class="nav-link" href="#brand">Brand  </a>
                     </li>
+
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 Sale
@@ -191,27 +185,6 @@
 
 
     <!-- banner start -->
-  <!-- <div id="carouselExample" class="carousel slide">
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-            <img src="img/banner3.png" class="d-block w-100" alt="...">
-        </div>
-        <div class="carousel-item">
-            <img src="img/banner2.jpg" class="d-block w-100" alt="...">
-        </div>
-        <div class="carousel-item">
-            <img src="img/banner1.jpg" class="d-block w-100" alt="...">
-        </div>
-      </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-      </button>
-  </div>     -->
 
   <div class="container-fluid">
     <div class="row banner">
@@ -226,7 +199,7 @@
           </div>
           <div class="row pb-5 mb-5">
             <div class="col-4 shadow rounded-3"><i class="bi bi-feather"></i> LIGHT WEIGHT</div>
-            <div class="col-4 shadow rounded-3"><img src="img/shoes.png" width="15%" alt=""> DURABLE</div>
+            <div class="col-4 shadow rounded-3"><img src="img/shoes.png" width="18%" alt=""> DURABLE</div>
             <div class="col-4 shadow rounded-3"><i class="bi bi-bluesky"> </i>COMFORTABLE</div>
           </div>
       </div>
@@ -343,7 +316,7 @@
 
           <div class="col-2 text-center">
             <div class="card rounded-pill">
-              <img src="img/p3.png" class="p-3"  alt="...">
+              <img src="img/p3.png" class="p-3" alt="...">
                   <!-- <div class="card-body">
                       <b>Adidas</b>
                       <p class="card-text">men's running shoes </p>
@@ -618,7 +591,7 @@
    <!-- footer start   -->
 <div class="container-fluid mt-5 bg-body-secondary pt-4 pb-4">
   <div class="row">
-    <div class="col-md-3 col-sm-12">
+    <div class="col-3">
       <h5>IN OUR STORE</h5>
       Men<br>
       Women<br>
@@ -627,7 +600,7 @@
       Trending<br>
       Track Order
     </div>
-    <div class="col-md-3 col-sm-12">
+    <div class="col-3">
       <h5>OUR POLICIES & INFO</h5>
       Social Reach<br>
       Terms & Conditions<br>
@@ -638,7 +611,7 @@
       Privacy<br>
       Secure Payments
     </div>
-    <div class="col-md-3 col-sm-12">
+    <div class="col-3">
       <h5>GET IN TOUCH</h5><br>
       <b>Online Order</b><br><br>
       Inquiry/Complaint: <br>
@@ -646,7 +619,7 @@
       <b>9.00AM to 8.00PM</b><br><br>
       <b>Email:</b> ourcustomer@shoeslover.com
     </div>
-    <div class="col-md-3 col-sm-12 ">
+    <div class="col-3">
       <h5>GET EXCLUSIVE OFFERS & UPDATES</h5><br>
       <input class="pt-1 pb-2 ps-3 border border-1 rounded-1" type="email" placeholder="Your Email Id">
       <button type="submit" class="btn btn-secondary border border-1">Subscribe</button><br><br>
