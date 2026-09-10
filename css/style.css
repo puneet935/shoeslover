@@ -1,0 +1,13 @@
+.update{
+    background-image: url(../img/update.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    color: rgb(6, 64, 102);
+    text-shadow:1px 4px 5px rgb(67, 66, 66) ;
+}
+
+.banner{
+    background-image: url(../img/banner01.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
