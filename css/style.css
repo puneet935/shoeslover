@@ -19,10 +19,26 @@
     background-repeat: no-repeat;
     background-size: cover; 
     background-position: 0%;
+    height: 500px;
 }
 .women{
-    background-image: url(../img/bannerW1.png);
+    background-image: url(../img/bannerW.jpg);
     background-repeat: no-repeat;
     background-size: cover; 
     background-position: 0%;
+    height: 500px;
+}
+.kid{
+    background-image: url(../img/bannerk1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: 0%;
+    height: 500px;
+}
+.access{
+    background-image: url(../img/bannerA1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: 0%;
+    
 }
